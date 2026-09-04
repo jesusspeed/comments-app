@@ -7,5 +7,8 @@ export default defineNuxtConfig({
 ],
 build: {
   transpile: ['vuetify'],
+},
+nitro: {
+  preset: 'node-server'
 }
 })
