@@ -10,5 +10,8 @@ build: {
 },
 nitro: {
   preset: 'node-server'
+},
+nitro: {
+  preset: 'vercel-static'
 }
 })
